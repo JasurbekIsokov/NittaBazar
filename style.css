@@ -1,0 +1,398 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #ebfada;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+a {
+  font-family: sans-serif;
+}
+.header h1,
+.section1 h2,
+.rectengel h4,
+.footer h2 {
+  font-family: "Courier New", Courier, monospace;
+}
+.header h1,
+.section1 h2,
+.rectengel h4 {
+  color: red;
+}
+.box p:first-child,
+.header p,
+.section1 h3,
+.nav .last {
+  background-color: red;
+}
+.header span,
+.section1 span,
+.box p:nth-child(5),
+.basced p,
+.footer h2,
+.footer p {
+  color: #a0d468;
+}
+.header p,
+.section1 h3,
+.header button,
+.categories p,
+.section2 .gift button,
+.universal button,
+.box p:first-child,
+.box button,
+.basced button,
+.footer button,
+.copy {
+  color: #fff;
+}
+.header button,
+.nav,
+.categories p,
+.section1 .categories select:hover,
+.section2 .gift button,
+.universal button:hover,
+.box button,
+.basced button,
+.copy,
+.footer button {
+  background-color: #a0d468;
+}
+
+.header button:hover,
+.nav ul li:hover,
+.section2 .gift button:hover,
+.box button:hover,
+.basced button:hover {
+  background-color: coral;
+}
+
+.contener {
+  width: 80%;
+  margin: 0 auto;
+}
+.header {
+  background-color: #000;
+}
+.header h1,
+.section1 h2 {
+  padding-top: 10px;
+  font-size: 36px;
+}
+.header p,
+.section1 h3 {
+  width: 35px;
+  padding: 2px;
+  margin: -8px 0 0 175px;
+  border-radius: 40px 0 0 40px;
+  font-size: 10.72px;
+}
+.header input {
+  width: 30%;
+  margin: -45px 0 0 390px;
+  padding: 8px 10px;
+  border-radius: 5px;
+  position: absolute;
+}
+.header button {
+  position: absolute;
+  margin: -40px 0 0 1010px;
+  padding: 3px 5px;
+  border: none;
+  border-radius: 5px;
+}
+.header button:hover {
+  cursor: pointer;
+}
+.nav ul a {
+  text-decoration: none;
+  color: #000;
+}
+.nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  background-color: #ffff;
+  margin: 5px 10px;
+  padding: 1px 3px;
+  border-radius: 5px;
+}
+.nav ul li:hover {
+  cursor: pointer;
+}
+.nav ul a:nth-child(4) {
+  margin-left: 485px;
+}
+.section1 {
+  margin: 10px 0;
+  position: relative;
+}
+.section1 .categories {
+  width: 20%;
+  border-radius: 5px;
+  box-sizing: border-box;
+  display: inline-block;
+}
+.categories p {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px 5px 0 0;
+  box-sizing: border-box;
+}
+.section1 .categories select {
+  border: none;
+  padding: 8px 10px;
+  background-color: #dfdfdf;
+  width: 100%;
+}
+.section1 .categories select:hover {
+  cursor: pointer;
+}
+.section1 .categories select:last-child {
+  padding-bottom: 20px;
+}
+.section1 img {
+  width: 79%;
+  height: 450px;
+  position: absolute;
+  margin: 0 10px;
+  border-radius: 5px;
+}
+.section1 .rectengel {
+  width: 79%;
+  height: 450px;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin: -470px 0 0 227.5px;
+  position: relative;
+}
+.section1 h2 {
+  font-size: 36px;
+}
+.bazar {
+  position: relative;
+  text-align: right;
+  margin: -100px 0 0 860px;
+}
+.bazar h2:first-child {
+  font-size: 60px;
+  position: absolute;
+  margin: -45px 0 0 70px;
+}
+.rectengel h4 {
+  font-size: 32px;
+  text-align: center;
+  margin-top: 130px;
+  position: absolute;
+}
+.section2 .gift {
+  width: 215px;
+  border-radius: 5px;
+  background-color: #dfdfdf;
+  margin: 50px 10px 10px 0;
+  position: absolute;
+}
+.section2 .gift img {
+  width: 70%;
+  margin: 110px 30px;
+  border-radius: 10px;
+  background-color: #dfdfdf;
+}
+.section2 .gift button {
+  width: 90%;
+  margin: 10px;
+  padding: 8px;
+  border: none;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+.section2 .gift button:hover {
+  cursor: pointer;
+}
+.section2 .fon2,
+.category {
+  width: 79%;
+  margin-left: 227px;
+  position: relative;
+}
+.section2 .fon2 img {
+  width: 49.1%;
+  margin: 50px 0 0 0;
+}
+.section2 .fon2 img:first-child {
+  height: 234px;
+  margin-right: 11px;
+}
+.category h2 {
+  text-align: center;
+  margin: 20px 0 0 0;
+  color: #555;
+}
+.category img,
+.rectengel {
+  width: 8%;
+  height: 60px;
+  display: inline-block;
+  margin: 20px 6.7px;
+  border-radius: 10px;
+}
+.category .rectengel {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin-left: -78px;
+}
+.category .rectengel:hover {
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0);
+}
+.universal {
+  margin-top: 30px;
+}
+.universal h2 {
+  color: #555;
+  display: inline-block;
+}
+.universal button {
+  background-color: #111;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  margin-left: 720px;
+}
+.universal button:hover {
+  cursor: pointer;
+}
+
+.box {
+  width: 15.4%;
+  display: inline-block;
+  margin: 10px 5px;
+  background-color: #ffffff;
+  box-shadow: 5px 5px 8px #999;
+  border-radius: 5px;
+}
+.box img {
+  width: 80%;
+  margin: 15px;
+  position: relative;
+}
+
+.box p:first-child {
+  padding: 2px;
+  font-size: 13.2px;
+  text-align: center;
+  width: 50px;
+  margin-left: 110px;
+  border-radius: 5px;
+}
+.box p:nth-child(3) {
+  margin: 10px;
+}
+.box p:nth-child(5) {
+  margin: 10px;
+  display: inline-block;
+}
+.box p:nth-child(6) {
+  text-align: right;
+  margin: -30px 10px 10px 0;
+}
+.box button {
+  width: 90%;
+  padding: 5px;
+  margin: 10px 10px 20px 10px;
+  border: none;
+  border-radius: 5px;
+}
+.box button:hover {
+  cursor: pointer;
+}
+.fish {
+  padding: 29px 0;
+}
+.meat {
+  padding: 6px 0;
+}
+.potatoes {
+  padding: 22px 0;
+}
+.patir {
+  padding: 16px 0;
+}
+.basced {
+  width: 32.1%;
+  margin: 10px 5px;
+  background-color: rgb(250, 203, 115);
+  border-radius: 5px;
+  display: inline-block;
+}
+.basced img {
+  width: 40%;
+  margin: 30px 20px;
+  border-radius: 100%;
+  box-shadow: 0 8px 8px #555;
+  display: inline-block;
+}
+.basced h3 {
+  position: absolute;
+  margin: -150px 0 0 170px;
+  font-size: 16px;
+}
+.basced p {
+  position: absolute;
+  margin: -90px 0 0 170px;
+}
+.basced button {
+  width: 50%;
+  padding: 10px 0;
+  border: none;
+  border-radius: 5px;
+  margin: -50px 0 30px 160px;
+}
+.basced button:hover {
+  cursor: pointer;
+}
+.chicken {
+  padding: 25px 0;
+}
+.fish2 {
+  padding: 27px 0;
+}
+.general1 {
+  padding: 18px 0;
+}
+.greens {
+  height: 143px;
+}
+.cucumber1 {
+  padding: 22px 0;
+}
+.greens_red {
+  padding: 5px 0;
+}
+.copy {
+  width: 100%;
+  text-align: center;
+  padding: 5px;
+  margin-top: 20px;
+}
+.footer h2 {
+  text-align: center;
+  padding-top: 30px;
+  font-size: 40px;
+}
+.footer p {
+  display: inline-block;
+  padding: 20px 10px;
+}
+.footer button {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+}
+.footer p:nth-child(2) {
+  margin-left: 440px;
+}
